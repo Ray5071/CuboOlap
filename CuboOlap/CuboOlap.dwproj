@@ -6,10 +6,34 @@
     <Name>CuboOlap.database</Name>
     <FullPath>CuboOlap.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Prueba.cube</Name>
+      <FullPath>Prueba.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Prueba.partitions</Name>
+          <FullPath>Prueba.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Marcas.dim</Name>
       <FullPath>Marcas.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Tipos.dim</Name>
+      <FullPath>Tipos.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Tiempo.dim</Name>
+      <FullPath>Tiempo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Equipo Carga.dim</Name>
+      <FullPath>Equipo Carga.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -32,7 +56,7 @@
           <ConfigurationSetting>
             <Id>CuboOlap</Id>
             <Name>CuboOlap</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=Prueba</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=EST0101CAU009;Integrated Security=SSPI;Initial Catalog=Prueba</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

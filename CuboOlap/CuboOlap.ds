@@ -3,7 +3,7 @@
   <Name>CuboOlap</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=Prueba</ConnectionString>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=EST0101CAU009;Integrated Security=SSPI;Initial Catalog=Prueba</ConnectionString>
   <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
   <ImpersonationInfo>
     <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
