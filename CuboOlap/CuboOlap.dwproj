@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Prueba.cube</Name>
-      <FullPath>Prueba.cube</FullPath>
+      <Name>Cubo.cube</Name>
+      <FullPath>Cubo.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Prueba.partitions</Name>
-          <FullPath>Prueba.partitions</FullPath>
+          <Name>Cubo.partitions</Name>
+          <FullPath>Cubo.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -31,10 +31,6 @@
       <Name>Tiempo.dim</Name>
       <FullPath>Tiempo.dim</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Equipo Carga.dim</Name>
-      <FullPath>Equipo Carga.dim</FullPath>
-    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -44,8 +40,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Prueba.dsv</Name>
-      <FullPath>Prueba.dsv</FullPath>
+      <Name>Cubo.dsv</Name>
+      <FullPath>Cubo.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
