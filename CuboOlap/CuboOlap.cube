@@ -1,95 +1,11 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ea870894-3ad6-4a96-9517-06ad4460160d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>ViewData</ID>
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a16dcffc-45be-4be2-9f42-c4468f834719" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboOlap</ID>
   <Name>CuboOlap</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-      <Value>
-        <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6189" scrolltop="-1750" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22146" y="12779" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
-            <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
-            </font>
-            <mouseicon>
-              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
-            </mouseicon>
-          </diagram>
-          <layoutmanager>
-            <ddsxmlobj />
-          </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="EquipoCarga" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3836" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000fc0e000088130000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_EquipoCarga" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Tipos" left="311" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3254" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b60c000057070000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_Tipos" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Marcas" left="6256" top="1349" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3493" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000a50d0000fe080000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_Marcas" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1539" top="4700" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_EquipoCarga_Tipos]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1938" y="7400" />
-              <point x="1938" y="5000" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3556" top="2101" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_EquipoCarga_Marcas]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="12" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6256" y="2500" />
-              <point x="3856" y="2500" />
-            </connector>
-          </ddscontrol>
-        </dds>
-      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -105,15 +21,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-6189</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-1750</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -127,65 +43,65 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="0c714aeb-0724-48cf-a9ee-de7eaea0bf2b">
+    <Dimension dwd:design-time-name="302ae015-7fe3-45f7-a217-92056320ef01">
       <ID>Tipos</ID>
       <Name>Tipos</Name>
       <DimensionID>Tipos</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a11ad359-70cd-4027-b6b6-55f6d29d10dc">
+        <Attribute dwd:design-time-name="a4249b08-09ae-4980-840e-5d01f0a4ceb8">
           <AttributeID>Id Tipo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7cb9b85b-f06c-4147-8aa0-b32eabfb1021">
+        <Attribute dwd:design-time-name="a407335c-81f1-4506-ba97-4a2e0652a844">
           <AttributeID>Descripcion Tipo</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="5c3a1288-16a4-4676-b757-133edaa65b5a">
+    <Dimension dwd:design-time-name="18fef792-2c13-48c5-8b39-75b05b6885fd">
       <ID>Marcas</ID>
       <Name>Marcas</Name>
       <DimensionID>Marcas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="66f0b0aa-2660-41b3-9bdf-89cfce58faa2">
+        <Attribute dwd:design-time-name="3242ea4c-cb2f-4337-bcec-0e618e1195b4">
           <AttributeID>Id Marca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e2126a32-d814-4574-8851-cc53fc5727f0">
+        <Attribute dwd:design-time-name="3b34d800-111a-4625-9dc6-24779310de34">
           <AttributeID>Nombre Marcar</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="185a24be-9354-454f-9c3b-4f1a39771243">
+        <Attribute dwd:design-time-name="97075191-f84a-462c-96cc-ced306934b2a">
           <AttributeID>Descripcion Marca</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="2d08d480-2e65-4cc3-ba8a-1b66c16b2deb">
-      <ID>Equipo Carga</ID>
-      <Name>Equipo Carga</Name>
+    <MeasureGroup dwd:design-time-name="6a8001f7-3098-433a-acbf-6ccfc1be3962">
+      <ID>Data W</ID>
+      <Name>Data W</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="e8041ab0-0afc-474b-b454-98236f490498">
+        <Measure dwd:design-time-name="487cd853-7daf-4848-a91e-178e6781f8c9">
           <ID>Año</ID>
           <Name>Año</Name>
-          <Source dwd:design-time-name="2b698d13-9056-496b-b9f7-083f85e172aa">
+          <Source dwd:design-time-name="a57b3198-173a-4e74-9512-088db65408ee">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="40535656-16e8-4834-893f-e15fdf27228c">
-              <TableID>dbo_EquipoCarga</TableID>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e06aefbc-947d-4ee2-98f3-a3da34f8fd9a">
+              <TableID>dbo_DataW</TableID>
               <ColumnID>Año</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="703aae02-9827-40cd-be7f-5ccbd1a0bc7a">
-          <ID>Recuento Equipo Carga</ID>
-          <Name>Recuento Equipo Carga</Name>
+        <Measure dwd:design-time-name="1e590244-022a-4a70-92c4-7e96f4ff176d">
+          <ID>Recuento Data W</ID>
+          <Name>Recuento Data W</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="792ad67e-8410-45c8-82e4-c4e3285dcdbb">
+          <Source dwd:design-time-name="3cc8e8e7-cdab-4565-a32d-f2db58f787d9">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="6c3a06d2-95f1-4e12-856f-7e6d51928d20">
-              <TableID>dbo_EquipoCarga</TableID>
+            <Source xsi:type="RowBinding" dwd:design-time-name="6589017a-d020-4fc9-96fa-1a0aed9598b3">
+              <TableID>dbo_DataW</TableID>
             </Source>
           </Source>
         </Measure>
@@ -193,17 +109,17 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="85bdc0af-9ecc-4afa-9932-e38a872a24af">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5b584156-3c65-41af-8ffe-f1b352f5f1be">
           <CubeDimensionID>Tipos</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e3012181-531d-4600-b68a-340e2ca3e5e6">
+            <Attribute dwd:design-time-name="ceec7cde-e48f-4759-a054-31820b19de7a">
               <AttributeID>Id Tipo</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="03e80f37-8995-4564-8454-ef3100fb359b">
+                <KeyColumn dwd:design-time-name="cccca56a-cf77-449a-859c-5900a5ed56cc">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="987a7d51-a535-4b94-8717-a558f7dd41a9">
-                    <TableID>dbo_EquipoCarga</TableID>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee44eae1-8f74-4ada-b842-fe1dbf88e1f9">
+                    <TableID>dbo_DataW</TableID>
                     <ColumnID>IdTipo</ColumnID>
                   </Source>
                 </KeyColumn>
@@ -212,17 +128,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="68dfe30a-bd97-4bac-9e30-d121625d10d7">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0106928f-2c59-4ef2-b491-c7cabe659932">
           <CubeDimensionID>Marcas</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a0226eea-601c-4703-b6e9-b8aed0e276a1">
+            <Attribute dwd:design-time-name="ff752cbc-2132-4b77-ab60-3bc6108c768b">
               <AttributeID>Id Marca</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d6217f68-410b-4f5e-afba-b1276b8544a3">
+                <KeyColumn dwd:design-time-name="ca629e41-e747-44e8-9a67-4fa3200288a0">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5eaef8c9-7cf0-4a08-ac2c-f380e68df933">
-                    <TableID>dbo_EquipoCarga</TableID>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4887f073-19d7-463c-ab53-02828780834b">
+                    <TableID>dbo_DataW</TableID>
                     <ColumnID>IdMarca</ColumnID>
                   </Source>
                 </KeyColumn>
@@ -235,7 +151,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="229ae0a8-f1dd-43d5-bb4a-fddb824f0859">
-    <DataSourceViewID>Prueba</DataSourceViewID>
+  <Source dwd:design-time-name="722a5a66-117e-4ed8-91ba-d7fec2f518ee">
+    <DataSourceViewID>ViewData</DataSourceViewID>
   </Source>
 </Cube>
