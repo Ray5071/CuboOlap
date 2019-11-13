@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cubo.cube</Name>
-      <FullPath>Cubo.cube</FullPath>
+      <Name>CuboOlap.cube</Name>
+      <FullPath>CuboOlap.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo.partitions</Name>
-          <FullPath>Cubo.partitions</FullPath>
+          <Name>CuboOlap.partitions</Name>
+          <FullPath>CuboOlap.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -34,14 +34,14 @@
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>CuboOlap.ds</Name>
-      <FullPath>CuboOlap.ds</FullPath>
+      <Name>Prueba.ds</Name>
+      <FullPath>Prueba.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Cubo.dsv</Name>
-      <FullPath>Cubo.dsv</FullPath>
+      <Name>ViewData.dsv</Name>
+      <FullPath>ViewData.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -50,15 +50,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>CuboOlap</Id>
-            <Name>CuboOlap</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=EST0101CAU009;Integrated Security=SSPI;Initial Catalog=Prueba</Value>
+            <Id>Prueba</Id>
+            <Name>Prueba</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=Prueba</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>CuboOlap</Id>
-            <Name>CuboOlap</Name>
+            <Id>Prueba</Id>
+            <Name>Prueba</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>

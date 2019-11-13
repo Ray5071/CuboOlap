@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6313900b-ee45-407f-9a18-5980ce34fa0d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8c6d1b01-1ea2-414e-92ef-5a99a98f6332" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Marcas</ID>
   <Name>Marcas</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,35 +42,37 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="07517cc9-b1ea-4785-8848-cf5f152a2882">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b117e591-0915-4edf-85b4-227e855d41bd">
     <DataSourceViewID>Prueba</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="e40eb2cb-bc8b-421b-9178-b839551edd02">
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="c5a6738b-fde5-4770-b647-23fb2280c21d">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="3cd73177-127a-4f9d-920c-5352fb0c6952">
+    <Attribute dwd:design-time-name="2e9ae3bf-03c6-4c1b-b546-bc2921d1ee4f">
       <ID>Id Marca</ID>
       <Name>Id Marca</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d85d735d-7779-4779-984a-51d394903c1d">
+        <KeyColumn dwd:design-time-name="3e99d26b-fc33-4b14-b6cd-a5b2d616789a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="08607b31-adf2-472e-a169-1d89bff09771">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a5b6e87-8e59-4a03-bdcc-4c805f96873c">
             <TableID>dbo_Marcas</TableID>
             <ColumnID>IdMarca</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="0d9ddf51-7fe4-4d9d-a290-f36d2c94e460">
+        <AttributeRelationship dwd:design-time-name="0e9ec0cb-9ecb-410f-beeb-c4dd62034062">
           <AttributeID>Nombre Marcar</AttributeID>
           <Name>Nombre Marcar</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="94d479d6-3324-44c2-9e5d-ce078f494591">
+        <AttributeRelationship dwd:design-time-name="0573d302-0944-43f9-be6f-95f489f10f8d">
           <AttributeID>Descripcion Marca</AttributeID>
           <Name>Descripcion Marca</Name>
         </AttributeRelationship>
@@ -79,14 +81,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3264ca3a-b6d0-48d9-9106-aaeea9cef1ad">
+    <Attribute dwd:design-time-name="657a2742-816e-47f3-9fac-b96987847725">
       <ID>Nombre Marcar</ID>
       <Name>Nombre Marcar</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1321e8a6-b852-419e-81b9-fafc48dbe3fa">
+        <KeyColumn dwd:design-time-name="d5d884cc-ee4d-4a02-b77f-6c11ff282161">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e354f0f8-e2cf-4ba0-8435-5750d212d475">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e3bff6e-8eeb-4c1f-bc0a-b4c1e621ece9">
             <TableID>dbo_Marcas</TableID>
             <ColumnID>NombreMarcar</ColumnID>
           </Source>
@@ -96,14 +98,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e81f2c0d-c381-4aef-8634-565c3478f903">
+    <Attribute dwd:design-time-name="612f55f0-eb11-429e-951c-a85e935cb768">
       <ID>Descripcion Marca</ID>
       <Name>Descripcion Marca</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4d358c03-bfeb-4863-9f7c-7bca82ba1129">
+        <KeyColumn dwd:design-time-name="0f0c8456-94fa-41a6-aa84-fa86a8913776">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6eeb786-14ba-425f-9df4-edf0565cd6f1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="692abbec-c858-466f-945c-f2a8fb2ec79a">
             <TableID>dbo_Marcas</TableID>
             <ColumnID>DescripcionMarca</ColumnID>
           </Source>
